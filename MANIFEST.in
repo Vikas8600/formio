@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include formio *.css
+recursive-include formio *.csv
+recursive-include formio *.html
+recursive-include formio *.ico
+recursive-include formio *.js
+recursive-include formio *.json
+recursive-include formio *.md
+recursive-include formio *.png
+recursive-include formio *.py
+recursive-include formio *.svg
+recursive-include formio *.txt
+recursive-exclude formio *.pyc
