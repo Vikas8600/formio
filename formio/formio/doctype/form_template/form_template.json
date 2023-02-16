@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "autoname": "field:form_name",
+ "creation": "2023-02-16 17:24:04.190491",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "form_name",
+  "form_defination",
+  "developer_notice",
+  "json_data",
+  "is_protected",
+  "is_templated"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type"
+  },
+  {
+   "fieldname": "form_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Form Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "form_defination",
+   "fieldtype": "HTML",
+   "label": "Form Defination",
+   "options": "<h5> Tournament Registration Form</h5>\n<div id=\"builder\">\nLoading  ....\n</div>\n<h5>Renderd Form</h5>\n<div id=\"renderer\"></div>"
+  },
+  {
+   "fieldname": "developer_notice",
+   "fieldtype": "HTML",
+   "label": "Developer Notice",
+   "options": "<hr>\n<p>Options below are for use by developers, please do not edit the same.</p>"
+  },
+  {
+   "fieldname": "json_data",
+   "fieldtype": "Code",
+   "label": "Form Defination Data"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_protected",
+   "fieldtype": "Check",
+   "label": "Is Protected"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_templated",
+   "fieldtype": "Check",
+   "label": "Is Templated"
+  }
+ ],
+ "links": [],
+ "modified": "2023-02-16 17:24:04.190491",
+ "modified_by": "Administrator",
+ "module": "formio",
+ "name": "Form Template",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
